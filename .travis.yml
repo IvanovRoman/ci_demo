@@ -10,3 +10,9 @@ branches:
 
 before_install:
   - npm install -g yarn
+
+debloy:
+  provider: heroku
+  app: "ci-reactjs-demo"
+  api_key:
+    secure: "b0362117-b0a8-4324-b4a1-8bf2678979d0"
