@@ -13,6 +13,6 @@ before_install:
 
 deploy:
   provider: heroku
-  app: "ci-reactjs-demo"
+  app: ci-reactjs-demo
   api_key:
     secure: "b0362117-b0a8-4324-b4a1-8bf2678979d0"
